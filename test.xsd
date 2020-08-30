@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="test" targetNamespace="test">
+	<xsd:complexType name="GetShipmentMethodsOutputType">
+		<xsd:annotation>
+			<xsd:documentation>Object to present GetShipmentMethods Output</xsd:documentation>
+		</xsd:annotation>
+		<xsd:sequence>
+			<xsd:element name="shipMethods" type="xsd:string" nillable="true" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
